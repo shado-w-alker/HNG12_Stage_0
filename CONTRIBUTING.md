@@ -1,4 +1,3 @@
-````markdown
 # Contributing to HNG12 Stage 0 App
 
 Thank you for considering contributing to this project! 🎉 Follow the guidelines below to make your contributions smooth and effective.
@@ -15,6 +14,7 @@ Click the **Fork** button at the top-right corner of the [GitHub repository](htt
 git clone https://github.com/shado-w-alker/HNG12_Stage_0.git
 cd HNG_Stage_0
 ```
+
 ````
 
 ### 3. Create a New Branch
@@ -50,10 +50,10 @@ git push origin feature-your-feature-name
 
 ## ✅ Contribution Guidelines
 
-✔ Follow **Dart & Flutter style guides**.  
-✔ Keep PRs **small & focused**.  
-✔ Add **comments** to explain complex code.  
-✔ Ensure **no build errors** before submitting.  
+✔ Follow **Dart & Flutter style guides**.
+✔ Keep PRs **small & focused**.
+✔ Add **comments** to explain complex code.
+✔ Ensure **no build errors** before submitting.
 ✔ Be respectful & open to feedback.
 
 ---
@@ -63,3 +63,4 @@ git push origin feature-your-feature-name
 For any questions, open an [issue](https://github.com/shado-w-alker/HNG12_Stage_0/issues).
 
 Happy coding! 🚀
+````
