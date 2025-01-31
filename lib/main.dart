@@ -88,7 +88,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 child: ElevatedButton(
                   onPressed: () async {
                     const String url =
-                        'http://hng.tech/hire/flutter-developers';
+                        'https://hng.tech/hire/flutter-developers';
 
                     if (await canLaunchUrlString(url)) {
                       await launchUrlString(url, mode: LaunchMode.inAppWebView);
