@@ -66,15 +66,13 @@ class _MyHomePageState extends State<MyHomePage> {
                 width: double.infinity,
                 child: ElevatedButton(
                   onPressed: () async {
-                    if (await canLaunchUrlString(
-                        'https://github.com/shado-w-alker/HNG12_Stage_0')) {
-                      await launchUrlString(
-                          'https://github.com/shado-w-alker/HNG12_Stage_0',
-                          mode: LaunchMode.inAppWebView);
-                    } else if (await canLaunchUrlString(
-                        'https://github.com/shado-w-alker/HNG12_Stage_0')) {
-                      await launchUrlString(
-                          'https://github.com/shado-w-alker/HNG12_Stage_0');
+                    const String url =
+                        'https://github.com/shado-w-alker/HNG12_Stage_0';
+
+                    if (await canLaunchUrlString(url)) {
+                      await launchUrlString(url, mode: LaunchMode.inAppWebView);
+                    } else if (await canLaunchUrlString(url)) {
+                      await launchUrlString(url);
                     } else {
                       throw 'Could Open Git Repo Now';
                     }
@@ -89,15 +87,13 @@ class _MyHomePageState extends State<MyHomePage> {
                 width: double.infinity,
                 child: ElevatedButton(
                   onPressed: () async {
-                    if (await canLaunchUrlString(
-                        'http://hng.tech/hire/flutter-developers')) {
-                      await launchUrlString(
-                          'http://hng.tech/hire/flutter-developers',
-                          mode: LaunchMode.inAppWebView);
-                    } else if (await canLaunchUrlString(
-                        'http://hng.tech/hire/flutter-developers')) {
-                      await launchUrlString(
-                          'http://hng.tech/hire/flutter-developers');
+                    const String url =
+                        'http://hng.tech/hire/flutter-developers';
+
+                    if (await canLaunchUrlString(url)) {
+                      await launchUrlString(url, mode: LaunchMode.inAppWebView);
+                    } else if (await canLaunchUrlString(url)) {
+                      await launchUrlString(url);
                     } else {
                       throw 'Could Open HNG';
                     }

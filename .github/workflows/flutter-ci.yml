@@ -7,10 +7,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - name: Set up HNG12 Stage 0
-        uses: subosito/flutter-action@v2
-        with:
-          flutter-version: "stable"
       - name: Install dependencies
         run: flutter pub get
       - name: Analyze code
