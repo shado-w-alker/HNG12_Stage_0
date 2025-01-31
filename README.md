@@ -11,8 +11,6 @@ git clone https://github.com/shado-w-alker/HNG12_Stage_0.git
 cd HNG12_Stage_0
 ```
 
-````
-
 ### **2. Install Dependencies**
 
 ```sh
@@ -59,4 +57,3 @@ flutter build ios
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ---
-````

@@ -15,8 +15,6 @@ git clone https://github.com/shado-w-alker/HNG12_Stage_0.git
 cd HNG_Stage_0
 ```
 
-````
-
 ### 3. Create a New Branch
 
 Use a descriptive branch name:
@@ -63,4 +61,3 @@ git push origin feature-your-feature-name
 For any questions, open an [issue](https://github.com/shado-w-alker/HNG12_Stage_0/issues).
 
 Happy coding! 🚀
-````
